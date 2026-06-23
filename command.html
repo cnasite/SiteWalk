@@ -20,7 +20,7 @@
 @font-face{font-family:'JetBrains Mono';src:url('fonts/JetBrainsMono-500.woff2') format('woff2');font-weight:500;font-display:swap;}
 
 :root{
-  --bg-0:#F6F6F4; --bg-1:#FFFFFF; --bg-2:#FBFBFA; --bg-3:#EEEEEB;
+  --bg-0:#FCFCFD; --bg-1:#FFFFFF; --bg-2:#F7F8FA; --bg-3:#F3F4F6;
   --bg-overlay:rgba(22,24,28,.35);
   --border:rgba(22,24,28,.10); --border-strong:rgba(22,24,28,.18);
   --inset:inset 0 0 0 1px rgba(22,24,28,.07);
@@ -344,7 +344,7 @@ body{background:var(--bg-0);color:var(--text-1);font:400 13px/1.55 var(--font-ui
     <!-- ============ SIDEBAR ============ -->
     <aside class="side">
       <div class="ws">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" style="flex:none;"><rect x="2" y="2" width="20" height="20" rx="6" fill="#16181C"/><path d="M6 15 L9 9 L12 14 L15 8 L18 15" stroke="#F6F6F4" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9" cy="9" r="1.4" fill="#E8501C"/></svg>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" style="flex:none;"><rect x="2" y="2" width="20" height="20" rx="6" fill="#16181C"/><path d="M6 15 L9 9 L12 14 L15 8 L18 15" stroke="#FCFCFD" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9" cy="9" r="1.4" fill="#E8501C"/></svg>
         <div class="col"><b>Canary Wharf T3</b><small>PHASE 2 · CWT3-P2</small></div>
         <svg class="ico" style="width:13px;height:13px;color:var(--text-3);"><use href="#i-chev"/></svg>
       </div>
@@ -459,7 +459,7 @@ body{background:var(--bg-0);color:var(--text-1);font:400 13px/1.55 var(--font-ui
           <div class="chart">
             <svg id="capChart" viewBox="0 0 600 210" preserveAspectRatio="xMidYMid meet"></svg>
           </div>
-          <div class="legend"><span><i style="background:#EEEEEB;box-shadow:var(--inset);"></i>Planned</span><span><i style="width:18px;height:3px;border-radius:2px;background:#E8501C"></i>Actual capture</span><span id="capDelta" style="margin-left:auto;color:var(--text-1);font-family:var(--font-mono);font-size:11px;">+8% on plan ↑</span></div>
+          <div class="legend"><span><i style="background:#F3F4F6;box-shadow:var(--inset);"></i>Planned</span><span><i style="width:18px;height:3px;border-radius:2px;background:#E8501C"></i>Actual capture</span><span id="capDelta" style="margin-left:auto;color:var(--text-1);font-family:var(--font-mono);font-size:11px;">+8% on plan ↑</span></div>
         </div>
 
         <!-- discipline completion : compact vertical -->
@@ -467,7 +467,7 @@ body{background:var(--bg-0);color:var(--text-1);font:400 13px/1.55 var(--font-ui
           <div class="lbl">Discipline completion<span class="v">67%</span></div>
           <div class="ring-wrap">
             <svg width="116" height="116" viewBox="0 0 116 116" class="ring">
-              <circle cx="58" cy="58" r="47" fill="none" stroke="#EEEEEB" stroke-width="10"/>
+              <circle cx="58" cy="58" r="47" fill="none" stroke="#F3F4F6" stroke-width="10"/>
               <circle cx="58" cy="58" r="47" fill="none" stroke="#2E9E68" stroke-width="10" stroke-dasharray="174 296" stroke-linecap="round"/>
               <circle cx="58" cy="58" r="47" fill="none" stroke="#90949B" stroke-width="10" stroke-dasharray="82 296" stroke-dashoffset="-180" stroke-linecap="round"/>
               <circle cx="58" cy="58" r="47" fill="none" stroke="#E8501C" stroke-width="10" stroke-dasharray="18 296" stroke-dashoffset="-268" stroke-linecap="round"/>
@@ -633,7 +633,7 @@ body{background:var(--bg-0);color:var(--text-1);font:400 13px/1.55 var(--font-ui
            <div class="plan">
              <svg id="planSvg" viewBox="0 0 640 430" fill="none" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                <path d="M48 60 H536 V300 H592 V372 H48 Z" stroke="#90949B" stroke-width="1.6"/>
-               <g stroke="#EEEEEB" stroke-width="1">
+               <g stroke="#F3F4F6" stroke-width="1">
                  <path d="M152 60 V372 M256 60 V372 M360 60 V372 M464 60 V300 M536 60 V372"/>
                  <path d="M48 138 H536 M48 216 H536 M48 294 H592"/>
                </g>
@@ -658,7 +658,7 @@ body{background:var(--bg-0);color:var(--text-1);font:400 13px/1.55 var(--font-ui
              <div class="frame">
                <span class="tag" id="vpCap">CAP-058-03 · 360°</span>
                <svg viewBox="0 0 320 150" fill="none">
-                 <rect width="320" height="150" fill="#FBFBFA"/>
+                 <rect width="320" height="150" fill="#F7F8FA"/>
                  <ellipse cx="160" cy="75" rx="92" ry="56" stroke="#E3E4E0" stroke-width="1.2"/>
                  <ellipse cx="160" cy="75" rx="46" ry="56" stroke="#E3E4E0" stroke-width="1"/>
                  <path d="M68 75 H252 M160 19 V131" stroke="#E3E4E0" stroke-width="1"/>
@@ -1273,10 +1273,10 @@ body{background:var(--bg-0);color:var(--text-1);font:400 13px/1.55 var(--font-ui
     let s='';
     // gridlines + y labels
     s+='<g font-family="JetBrains Mono" font-size="9" fill="#90949B">';
-    [0,1,2,3].forEach(k=>{ const v=max*k/3, y=cy(v); s+='<line x1="28" x2="592" y1="'+y.toFixed(1)+'" y2="'+y.toFixed(1)+'" stroke="#EEEEEB"/><text x="6" y="'+(y+3).toFixed(1)+'">'+Math.round(v)+'</text>'; });
+    [0,1,2,3].forEach(k=>{ const v=max*k/3, y=cy(v); s+='<line x1="28" x2="592" y1="'+y.toFixed(1)+'" y2="'+y.toFixed(1)+'" stroke="#F3F4F6"/><text x="6" y="'+(y+3).toFixed(1)+'">'+Math.round(v)+'</text>'; });
     s+='</g>';
     // planned bars
-    if(state.phase!=='actual'){ s+='<g fill="#EEEEEB" stroke="#CFD1CC">';
+    if(state.phase!=='actual'){ s+='<g fill="#F3F4F6" stroke="#CFD1CC">';
       planned.forEach((v,i)=>{ const y=cy(v); s+='<rect x="'+(cx(i)-bw/2).toFixed(1)+'" y="'+y.toFixed(1)+'" width="'+bw.toFixed(1)+'" height="'+(yb-y).toFixed(1)+'" rx="2"/>'; });
       s+='</g>'; }
     // actual line
@@ -1364,7 +1364,7 @@ body{background:var(--bg-0);color:var(--text-1);font:400 13px/1.55 var(--font-ui
       WP.forEach((w,k)=>{ if(k===sel) return;
         s += w.st==='pending'
           ? '<circle class="wp" data-i="'+k+'" cx="'+w.x+'" cy="'+w.y+'" r="5" fill="none" stroke="#CFD1CC" stroke-width="1.6"/>'
-          : '<circle class="wp" data-i="'+k+'" cx="'+w.x+'" cy="'+w.y+'" r="5" fill="#90949B" stroke="#FBFBFA" stroke-width="1.5"/>';
+          : '<circle class="wp" data-i="'+k+'" cx="'+w.x+'" cy="'+w.y+'" r="5" fill="#90949B" stroke="#F7F8FA" stroke-width="1.5"/>';
       });
       const c=WP[sel];
       s+='<circle cx="'+c.x+'" cy="'+c.y+'" r="13" fill="none" stroke="#E8501C" stroke-opacity=".35" stroke-width="1.4"/>';
@@ -1587,9 +1587,9 @@ body{background:var(--bg-0);color:var(--text-1);font:400 13px/1.55 var(--font-ui
     issRoot.innerHTML=ISS.map((x,i)=>'<button class="icard" data-i="'+i+'" data-st="'+x.st+'"><div class="r1"><span class="ref">'+x.ref+'</span><span class="schip" style="color:'+stCol[x.st]+'">'+stTxt[x.st].toUpperCase()+'</span></div><div class="ttl">'+x.title+'</div><div class="r2"><span class="meta">'+x.disc+' · '+x.assignee+'</span><span class="meta">'+x.due+'</span></div></button>').join('');
 
     // evidence graphics (TQI)
-    const evViewpoint='<svg viewBox="0 0 200 120" fill="none"><rect width="200" height="120" fill="#FBFBFA"/><rect x="88" y="26" width="24" height="70" fill="#E3E4E0"/><rect x="70" y="36" width="60" height="52" fill="none" stroke="#E8501C" stroke-width="1.4" stroke-dasharray="4 3"/><line x1="100" y1="26" x2="100" y2="96" stroke="#CFD1CC" stroke-width=".8"/><line x1="70" y1="62" x2="130" y2="62" stroke="#CFD1CC" stroke-width=".8"/><circle cx="100" cy="62" r="3.5" fill="none" stroke="#E8501C" stroke-width="1.3"/><text x="106" y="52" fill="#E8501C" font-size="7" font-family="JetBrains Mono">14.34, 8.71</text></svg>';
-    const evBim='<svg viewBox="0 0 200 120" fill="none"><rect width="200" height="120" fill="#FBFBFA"/><ellipse cx="100" cy="60" rx="40" ry="42" fill="rgba(232,80,28,0.12)"/><g stroke="#90949B" stroke-width="1.3" fill="none" stroke-linejoin="round" stroke-linecap="round"><path d="M80 50 L100 40 L120 50 L100 60 Z"/><path d="M80 50 L80 84 M120 50 L120 84 M100 60 L100 94 M80 84 L100 94 L120 84"/></g></svg>';
-    const evCompare='<svg viewBox="0 0 200 120" fill="none"><rect width="200" height="120" fill="#FBFBFA"/><rect x="52" y="34" width="16" height="58" fill="none" stroke="#CFD1CC" stroke-width="1.4" stroke-dasharray="3 2"/><rect x="128" y="34" width="16" height="58" fill="rgba(232,80,28,.45)"/><line x1="68" y1="44" x2="128" y2="44" stroke="#E8501C" stroke-width="1"/><path d="M128 44 l-6 -3 v6 z" fill="#E8501C"/><text x="80" y="40" font-size="8" fill="#E8501C" font-family="JetBrains Mono">+140mm</text></svg>';
+    const evViewpoint='<svg viewBox="0 0 200 120" fill="none"><rect width="200" height="120" fill="#F7F8FA"/><rect x="88" y="26" width="24" height="70" fill="#E3E4E0"/><rect x="70" y="36" width="60" height="52" fill="none" stroke="#E8501C" stroke-width="1.4" stroke-dasharray="4 3"/><line x1="100" y1="26" x2="100" y2="96" stroke="#CFD1CC" stroke-width=".8"/><line x1="70" y1="62" x2="130" y2="62" stroke="#CFD1CC" stroke-width=".8"/><circle cx="100" cy="62" r="3.5" fill="none" stroke="#E8501C" stroke-width="1.3"/><text x="106" y="52" fill="#E8501C" font-size="7" font-family="JetBrains Mono">14.34, 8.71</text></svg>';
+    const evBim='<svg viewBox="0 0 200 120" fill="none"><rect width="200" height="120" fill="#F7F8FA"/><ellipse cx="100" cy="60" rx="40" ry="42" fill="rgba(232,80,28,0.12)"/><g stroke="#90949B" stroke-width="1.3" fill="none" stroke-linejoin="round" stroke-linecap="round"><path d="M80 50 L100 40 L120 50 L100 60 Z"/><path d="M80 50 L80 84 M120 50 L120 84 M100 60 L100 94 M80 84 L100 94 L120 84"/></g></svg>';
+    const evCompare='<svg viewBox="0 0 200 120" fill="none"><rect width="200" height="120" fill="#F7F8FA"/><rect x="52" y="34" width="16" height="58" fill="none" stroke="#CFD1CC" stroke-width="1.4" stroke-dasharray="3 2"/><rect x="128" y="34" width="16" height="58" fill="rgba(232,80,28,.45)"/><line x1="68" y1="44" x2="128" y2="44" stroke="#E8501C" stroke-width="1"/><path d="M128 44 l-6 -3 v6 z" fill="#E8501C"/><text x="80" y="40" font-size="8" fill="#E8501C" font-family="JetBrains Mono">+140mm</text></svg>';
 
     function histFor(x){
       const who=x.by.split(' ').map(w=>w[0]).join('').slice(0,2).toUpperCase();
